@@ -1,0 +1,15 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: security
+    ##spring security通过配置文件修改登录的用户名和密码
+  datasource:
+    url: jdbc:mysql://localhost:3306/security?serverTimezone=UTC
+    password: 2270398619
+    username: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+#  security:
+#    user:
+#      name: miku
+#      password: miku
